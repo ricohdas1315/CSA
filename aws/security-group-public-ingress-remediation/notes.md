@@ -10,3 +10,8 @@ Remove any inbound AWS Security Group rule that allows public access from 0.0.0.
 4. Lambda checks for exception tag.
 5. Lambda removes offending inbound public rule(s).
 6. Lambda logs the action.
+
+## Test 1 3/26 3:30PM
+We have successfuly removed the inbound security gruop rule.
+We created a default role and attached a inline policy to it as well to make sure it works. 
+Have also created a lambda function and test security group to make sure it works. 
